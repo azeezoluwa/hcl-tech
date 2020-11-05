@@ -835,3 +835,45 @@
 2020-11-05 16:57:27,461 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\azeez\OneDrive\Desktop\AutoTest\hcl-tech-test\src\main\resources
 2020-11-05 16:57:27,466 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-11-05 16:57:27,466 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\azeez\OneDrive\Desktop\AutoTest\hcl-tech-test\src\test\resources
+2020-11-05 17:07:36,867 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-05 17:07:36,869 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\azeez\OneDrive\Desktop\AutoTest\hcl-tech-test\src\main\resources
+2020-11-05 17:07:36,873 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-05 17:07:36,873 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\azeez\OneDrive\Desktop\AutoTest\hcl-tech-test\src\test\resources
+2020-11-05 17:08:19,442 [Worker-128: Launching AngleOfTriangle] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-05 17:08:19,442 [Worker-128: Launching AngleOfTriangle] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\azeez\OneDrive\Desktop\AutoTest\hcl-tech-test\src\main\resources
+2020-11-05 17:08:19,445 [Worker-128: Launching AngleOfTriangle] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-05 17:08:19,445 [Worker-128: Launching AngleOfTriangle] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\azeez\OneDrive\Desktop\AutoTest\hcl-tech-test\src\test\resources
+2020-11-05 17:08:47,760 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-05 17:08:47,760 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\azeez\OneDrive\Desktop\AutoTest\hcl-tech-test\src\main\resources
+2020-11-05 17:08:47,761 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-05 17:08:47,761 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\azeez\OneDrive\Desktop\AutoTest\hcl-tech-test\src\test\resources
+2020-11-05 17:09:52,703 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-05 17:09:52,704 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\azeez\OneDrive\Desktop\AutoTest\hcl-tech-test\src\main\resources
+2020-11-05 17:09:52,706 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-05 17:09:52,706 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\azeez\OneDrive\Desktop\AutoTest\hcl-tech-test\src\test\resources
+2020-11-05 17:10:00,886 [Worker-129: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-11-05 17:10:01,811 [Worker-129: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: hcl-tech-test:hcl-tech-test:0.0.1-SNAPSHOT @ C:\Users\azeez\OneDrive\Desktop\AutoTest\hcl-tech-test\pom.xml.
+2020-11-05 17:10:02,438 [Worker-129: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hcl-tech-test/src/main/java
+2020-11-05 17:10:02,439 [Worker-129: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hcl-tech-test/src/test/java
+2020-11-05 17:10:02,593 [Worker-129: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-11-05 17:10:02,998 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-05 17:10:02,999 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\azeez\OneDrive\Desktop\AutoTest\hcl-tech-test\src\main\resources
+2020-11-05 17:10:03,001 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-05 17:10:03,001 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\azeez\OneDrive\Desktop\AutoTest\hcl-tech-test\src\test\resources
+2020-11-05 17:10:14,993 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-11-05 17:10:26,472 [Worker-127: Launching Executing clean in C__Users_azeez_OneDrive_Desktop_AutoTest_hcl-tech-test] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\azeez\OneDrive\Desktop\AutoTest\hcl-tech-test
+2020-11-05 17:10:26,474 [Worker-127: Launching Executing clean in C__Users_azeez_OneDrive_Desktop_AutoTest_hcl-tech-test] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-11-05 17:10:29,644 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-05 17:10:29,645 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\azeez\OneDrive\Desktop\AutoTest\hcl-tech-test\src\main\resources
+2020-11-05 17:10:29,646 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-05 17:10:29,647 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\azeez\OneDrive\Desktop\AutoTest\hcl-tech-test\src\test\resources
+2020-11-05 17:10:37,401 [Worker-131: Launching Executing install in C__Users_azeez_OneDrive_Desktop_AutoTest_hcl-tech-test] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\azeez\OneDrive\Desktop\AutoTest\hcl-tech-test
+2020-11-05 17:10:37,401 [Worker-131: Launching Executing install in C__Users_azeez_OneDrive_Desktop_AutoTest_hcl-tech-test] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2020-11-05 17:10:43,178 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-05 17:10:43,178 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\azeez\OneDrive\Desktop\AutoTest\hcl-tech-test\src\main\resources
+2020-11-05 17:10:43,179 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-05 17:10:43,179 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\azeez\OneDrive\Desktop\AutoTest\hcl-tech-test\src\test\resources
+2020-11-05 17:11:07,099 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-05 17:11:07,099 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\azeez\OneDrive\Desktop\AutoTest\hcl-tech-test\src\main\resources
+2020-11-05 17:11:07,100 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-05 17:11:07,100 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\azeez\OneDrive\Desktop\AutoTest\hcl-tech-test\src\test\resources

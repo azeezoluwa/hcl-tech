@@ -1,0 +1,6 @@
+base\BasePage.class
+base\ConfigFileReader.class
+base\EnvironmentManager.class
+base\BrowserManager.class
+base\CommonUtilities.class
+pages\HomePage.class
