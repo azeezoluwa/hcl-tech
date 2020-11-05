@@ -1,0 +1,16 @@
+package base;
+
+public class BasePage extends ConfigFileReader {
+
+	public static WebDriver driver;
+	public static WebDriverWait wait;
+	
+	protected <PFPage extends BasePage> PFPage instanceOf(Class<PFPage> pageInstance) 
+	{
+		try {
+			return PageFactory.initElements(driver, pageInstance);
+		} catch (Exception e) {
+			throw new RuntimeException("Unable to create instance of a page ", e);
+		}
+	}
+}

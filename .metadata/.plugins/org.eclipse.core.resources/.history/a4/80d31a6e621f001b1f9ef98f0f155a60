@@ -1,0 +1,21 @@
+package base;
+
+public class EnvironmentManager extends BasePage {
+
+	public void getEnvironmentType() 
+	{
+		try { 
+			String environmentType=prop.getProperty("environment");
+			if(environmentType.equals(hcl_env)) 
+			{
+				driver.get(prop.getProperty("hcl_env"));
+				System.out.println("Environment: HCL Home Page"); 
+			}
+			
+		}
+		catch(Exception e) 
+		{ 
+			throw new RuntimeException("Environment issue " + e); 
+		}
+	}
+}

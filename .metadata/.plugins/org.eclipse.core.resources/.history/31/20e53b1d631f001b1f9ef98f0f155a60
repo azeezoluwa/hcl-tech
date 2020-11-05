@@ -1,0 +1,18 @@
+package tdd;
+
+import org.testng.annotations.Test;
+
+import base.BasePage;
+import base.BrowserManager;
+import base.EnvironmentManager;
+
+public class TestCases extends BasePage{
+	
+	
+	@Test
+	public void startUp()
+	{
+		instanceOf(BrowserManager.class).getBrowserType();
+		instanceOf(EnvironmentManager.class).getEnvironmentType();
+	}
+}

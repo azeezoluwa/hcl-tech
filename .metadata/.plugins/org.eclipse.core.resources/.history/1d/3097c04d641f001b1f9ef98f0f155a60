@@ -1,0 +1,7 @@
+browser=firefox
+#firefox
+implicitlyWait=20
+pageLoadWait=20
+environment=https://www.hcl.com/
+hcl_env=https://www.hcl.com/
+corpEnv=https://www.hcl.com/leadership/hcl-corporation

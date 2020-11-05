@@ -1,0 +1,6 @@
+browser=chrome
+implicitlyWait=10
+pageLoadWait=10
+environment=https://www.hcl.com/
+hcl_env==https://www.hcl.com/
+corpEnv=https://www.hcl.com/leadership/hcl-corporation

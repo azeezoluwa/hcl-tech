@@ -1,0 +1,20 @@
+package pages;
+
+
+public class HomePage extends {
+
+	public HomePage() {
+		PageFactory.initElements(driver, this);
+		wait=new WebDriverWait(driver, Long.parseLong(prop.getProperty("webdriverWait")));
+	}
+
+
+	@CacheLookup
+	@FindBy(how=How.XPATH, using="//body[@id='body']/div[@class='sc-jnlKLf fzSIlE sc-tilXH faVWxh sc-fObBmV cfPViv']/header[@id='header']/div[@class='sc-dVhcbM jNofLG']/div[@class='sc-cHGsZl eraVPI']/ul[@class='sc-kAzzGY hEvNKU']/li[1]/a[1]")
+	public WebElement newsHeader;
+
+	@CacheLookup                 
+	@FindBy(how=How.LINK_TEXT, using="Subscribe")
+	public WebElement subscribeNowLink;
+
+}

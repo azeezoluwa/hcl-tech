@@ -1,0 +1,26 @@
+package base;
+
+public class EnvironmentManager {
+
+	public void getEnvironmentType() 
+	{
+		try { 
+			String environmentType=prop.getProperty("environment");
+			if(environmentType.equals(uat_env)) 
+			{
+				driver.get(prop.getProperty("homePageUAT_URL"));
+				System.out.println("Environment: UAT"); 
+			} 
+			else if(environmentType.equals(dev_env)) 
+			{
+				driver.get(prop.getProperty("homePageDEV_URL"));
+				System.out.println("Environment: DEV");
+			}
+			
+		}
+		catch(Exception e) 
+		{ 
+			throw new RuntimeException("Environment issue " + e); 
+		}
+	}
+}

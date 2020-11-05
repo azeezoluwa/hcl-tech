@@ -1,0 +1,131 @@
+package tdd;
+
+import static org.testng.Assert.assertTrue;
+
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import base.BasePage;
+import base.BrowserManager;
+import base.CommonUtilities;
+import base.EnvironmentManager;
+import pages.HomePage;
+
+public class TestCases extends BasePage{
+
+
+	//@BeforeMethod(alwaysRun=true)
+	public void startSession() 
+	{
+		instanceOf(BrowserManager.class).getBrowserType();
+		instanceOf(EnvironmentManager.class).getEnvironmentType();
+	}
+
+	//@AfterMethod(alwaysRun=true)
+	public void endSession(ITestResult result) 
+	{
+		if(ITestResult.SUCCESS==result.getStatus()) 
+		{
+			instanceOf(CommonUtilities.class).takeScreenshot();
+			System.out.println("Test Passed");
+		}
+		else if(ITestResult.FAILURE==result.getStatus()) 
+		{
+			instanceOf(CommonUtilities.class).takeScreenshot();
+			System.out.println("Test Failed");
+		}
+		instanceOf(CommonUtilities.class).closeBrowser();
+	}
+
+	//@Test
+	public void verifyHomePageLoadsSuccessfully()
+	{
+		instanceOf(HomePage.class).verifyUserIsOnHomePage();
+	}
+
+	//@Test(dependsOnMethods="verifyHomePageLoadsSuccessfully")
+	public void verifyFounderIsVisible()
+	{
+		instanceOf(HomePage.class).isFounderVisible();
+	}
+
+	@Test
+	public void printNumbers() 
+	{
+		//print the numbers 1,2,3,4,5,6,7,8,9,10 
+		int numbers[] = {1,2,3,4,5,6,7,8,9,10};
+
+		for(int number : numbers)
+		{
+			if(number==1)
+			{
+				assertTrue(number==1);
+				System.out.println(number);
+			}
+		
+			if(number==2)
+			{
+				assertTrue(number==2);
+				System.out.println(number);
+			}
+			if(number==3)
+			{
+				assertTrue(number==3);
+				System.out.println(number);
+			}
+			if(number==4)
+			{
+				assertTrue(number==4);
+				System.out.println(number);
+			}
+			if(number==5)
+			{
+				assertTrue(number==5);
+				System.out.println(number);
+			}
+			if(number==6)
+			{
+				assertTrue(number==6);
+				System.out.println(number);
+			}
+			if(number==7)
+			{
+				assertTrue(number==7);
+				System.out.println(number);
+			}
+			if(number==8)
+			{
+				assertTrue(number==8);
+				System.out.println(number);
+			}
+			if(number==9)
+			{
+				assertTrue(number==9);
+				System.out.println(number);
+			}
+			if(number==10)
+			{
+				assertTrue(number==10);
+				System.out.println(number);
+			}
+			
+			if(number==12)
+			{
+				assertTrue(number==11);
+				System.out.println(number);
+			}
+		}
+		
+		for(int i=1; i<numbers.length; i++)
+		{
+            //System.out.println(numbers[i]);
+            if(i<1 && i>=11)
+            {
+            	System.out.println(numbers[i]);
+            	throw new RuntimeException("Fail");
+            }
+		}
+	}
+}

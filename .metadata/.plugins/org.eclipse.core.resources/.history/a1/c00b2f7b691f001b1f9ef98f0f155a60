@@ -1,0 +1,40 @@
+package pages;
+
+import static org.testng.Assert.assertTrue;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import base.BasePage;
+import base.CommonUtilities;
+
+public class HomePage extends BasePage {
+
+	public HomePage() {
+		PageFactory.initElements(driver, this);
+		wait=new WebDriverWait(driver, Long.parseLong(prop.getProperty("webdriverWait")));
+	}
+
+	@CacheLookup
+	@FindBy(how=How.CSS, using="body.hcl-body.home:nth-child(4) header.header:nth-child(1) div.container-fluid div.row.justify-content-between div.col-md-2 div.logo a:nth-child(1) > svg:nth-child(1)")
+	public WebElement heroText;
+
+	@CacheLookup                 
+	@FindBy(how=How.LINK_TEXT, using="Subscribe")
+	public WebElement a;
+	
+	
+	
+	public void verifyUserIsOnHomePage()
+	{
+		CommonUtilities.pause(Long.parseLong(prop.getProperty("shortTimeout")));
+		wait.until(ExpectedConditions.visibilityOf(heroText));
+		assertTrue(heroText.isDisplayed());
+	}
+
+}
